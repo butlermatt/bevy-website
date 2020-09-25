@@ -10,15 +10,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name='viewport' content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Bevy - Code" />
+        <meta property="og:title" content="Bevy - Breakout" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bevyengine.org&#x2F;&#x2F;learn&#x2F;book&#x2F;contributing&#x2F;code&#x2F;" />
+        <meta property="og:url" content="https://bevyengine.org&#x2F;&#x2F;learn&#x2F;book&#x2F;breakout&#x2F;" />
         <meta property="og:image" content="https://bevyengine.org/assets/bevy_logo_fill.png" />
         <meta property="og:description" content="Bevy is a refreshingly simple data-driven game engine built in Rust. It is free and open-source forever!" />
         <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
         <link rel="stylesheet" href="/site.css" />
         <link href="/atom.xml" rel="alternate" type="application/atom+xml" />
-        <title>Bevy - Code</title>
+        <title>Bevy - Breakout</title>
         
 <script src="/optional-helpers.js"></script>
 
@@ -197,7 +197,7 @@
             
 
 <li class="book-nav-section">
-    <a href="https:&#x2F;&#x2F;bevyengine.org&#x2F;learn&#x2F;book&#x2F;breakout&#x2F;" class="book-nav-section-title">
+    <a href="https:&#x2F;&#x2F;bevyengine.org&#x2F;learn&#x2F;book&#x2F;breakout&#x2F;" class="book-nav-section-title-active book-nav-section-title" >
         <strong class="book-nav-section-number">3.</strong>
         breakout
     </a>
@@ -246,7 +246,7 @@
         
 
 <li class="book-nav-section">
-    <a href="https:&#x2F;&#x2F;bevyengine.org&#x2F;learn&#x2F;book&#x2F;contributing&#x2F;code&#x2F;" class="book-nav-section-title-active book-nav-section-title" >
+    <a href="https:&#x2F;&#x2F;bevyengine.org&#x2F;learn&#x2F;book&#x2F;contributing&#x2F;code&#x2F;" class="book-nav-section-title">
         <strong class="book-nav-section-number">5.1.</strong>
         code
     </a>
@@ -297,19 +297,27 @@
         
 
         
+         
         
             
-            
-            
-         
+            <a id="book-pager-bar-next" href="https:&#x2F;&#x2F;bevyengine.org&#x2F;learn&#x2F;book&#x2F;breakout&#x2F;setup&#x2F;" class="book-pager-bar book-pager-bar-next">
+                <div class="book-pager-bar-icon book-pager-bar-icon-next">
+                <img src="/assets/pager_next.svg" class="book-pager-image book-pager-image-right" />
+                </div>
+            </a>
         
         <h1>
             
-                Contributing Code
+                Breakout
             
+            
+                <span class="book-page-subtitle">(example)</span>
             
         </h1>
-        <div class="media-content"><p>We will expand this section in the near future with more information. For now, <a href="https://github.com/bevyengine/bevy">check out the Bevy GitHub repo</a>.</p>
+        <div class="media-content"><p>This tutorial will walk through writing an entire Breakout clone from start to finish, incrementally building upon previous functionality and refactoring similar to a full application.</p>
+<p>This walk-through was based on the original <a href="https://github.com/bevyengine/bevy/tree/master/examples/game">breakout example from the bevy repository</a>, with numerous additions.</p>
+<p>This tutorial does assume you have already followed the <a href="/learn/book/getting-started">getting started</a>, and are familiar witht he basic concepts of Bevy. It is highly recommended that you review the getting started section prior to continuing with this tutorial.</p>
+<p>The current version of Bevy as of this writing is bevy <code>0.2.1</code></p>
 </div>
         <div class="book-pagers" />
     </div>
