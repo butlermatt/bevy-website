@@ -102,5 +102,7 @@ fn main() {
 ```
 
 
-With these small changes, our game window should have a new title and background color being displayed.
+With these small changes, the game window should now display our new title and background color.
 ![empty bevy window](breakout-02.png)
+
+In the next section, we will begin to prepare the game with its initial state.
